@@ -1,22 +1,12 @@
-data_point = [1,2,4,5]
+import statistics
+import numpy as np
+import tkinter as tk
 
-def mean(data_points):
-    counter = 0
-    divisor = 0
 
-    for data in data_point:
-        counter += data
-    for data in data_point:
-        divisor += 1
-    print(counter/divisor)
+list = [1,2,3,4,5,6]
 
-def median(data_points):
-    if data_points.sorted():
-        pass
-    else:
-        data_points.sort()
+median = statistics.median(list)
 
-    if len(data_points)/2 !=0:
-        dafssf
+standev = statistics.stdev(np.array(list))
 
-mean(data_point)
+mean =  statistics.mean(list)
