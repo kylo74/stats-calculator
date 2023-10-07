@@ -14,3 +14,11 @@ mean =  statistics.mean(list)
 print(median)
 print(standev)
 print(mean)
+
+root = tk()
+
+mylabel = Label(root, text="hello world")
+
+mylabel.pack()
+
+root.mainloop()
