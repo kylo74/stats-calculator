@@ -1,6 +1,6 @@
 import statistics
 import numpy as np
-import tkinter as tk
+from tkinter import *
 
 
 list = [1,2,3,4,5,6]
@@ -15,7 +15,7 @@ print(median)
 print(standev)
 print(mean)
 
-root = tk()
+root = Tk()
 
 mylabel = Label(root, text="hello world")
 
